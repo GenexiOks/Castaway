@@ -1,9 +1,8 @@
+import styles from "./HomePage.module.css"
+
 function HomePage(){
     return <>
-    <body>
-
-        
-    </body>
+        <div className={styles.header}>sdvfwd</div>
     
     </>
 }

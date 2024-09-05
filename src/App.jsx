@@ -1,8 +1,7 @@
-import './App.css'
-import Header from './components/Header.jsx'
+import HomePage from "./components/HomePage"
 
 function App() {
-  return <Header/>
+  return <HomePage/>
 }
 
 export default App

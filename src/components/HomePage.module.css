@@ -1,6 +1,30 @@
 .header {
-    position:static;
-height: 119px;
-gap: 0px;
-opacity: 0px;
+    position: relative;
+    width: auto;
+    height: 119px;
+}
+
+.section {
+    display: flex;
+    position: relative;
+    height: 67px;
+    top: 26px;
+    bottom: 26px;
+    padding: 0px 50px 0px 50px;
+}
+
+.logo {
+    position: relative;
+    width: 160px;
+    height: 33px;
+    top: 17px;
+    left: 50px;
+    padding: 0.08px 0.27px 0.3px 0.57px;
+}
+
+.navigation-bar {
+    position: relative;
+    width: 403px;
+    height: 67px;
+    left: 987px;
 }

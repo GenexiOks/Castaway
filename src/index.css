@@ -1,12 +1,12 @@
 :root {
-  width: 1440px;
-  height: 5990px;
-  gap: 0px;
-  opacity: 0px;
-  background: #191919;  
+    width: auto;
+    height: 5990px;
+    gap: 0px;
+    opacity: 0px;
+    background: #191919;
 }
 
 body {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }

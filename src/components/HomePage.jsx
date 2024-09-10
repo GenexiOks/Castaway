@@ -1,19 +1,37 @@
-import styles from "./HomePage.module.css";
-import logo from "../../logo/Vector.svg";
+import styles from './HomePage.module.css';
+import logo from '../../logo/Vector.svg';
+import img from '../../img/IMAGE.svg';
 
 function HomePage() {
     return (
         <>
             <div className={styles.header}>
-                <section className={styles.section}>
-                    <img src={logo} className={styles.logo} alt={"logo"} />
-                </section>
-                <nav className={styles["navigation-bar"]}>
-                    <a href="form">Home</a>
-                    <a href="form">Episodes</a>
-                    <a href="#form">About</a>
-                    <a href="form">Contact</a>
+                <nav>
+                    <img src={logo}></img>
+                    <div className={styles['navigation-panel']}>
+                        <a href="#" className={styles.home}>
+                            Home
+                        </a>
+                        <a href="#" className={styles.episode}>
+                            Episodes
+                        </a>
+                        <a href="#" className={styles.about}>
+                            About
+                        </a>
+                        <a href="#" className={styles.contact}>
+                            Contact
+                        </a>
+                    </div>
                 </nav>
+            </div>
+            <div className={styles['home-page']}>
+                <section className={styles['section-one']}>
+                    <img
+                        src={img}
+                        alt="home page"
+                        className={styles['img-1']}
+                    />
+                </section>
             </div>
         </>
     );

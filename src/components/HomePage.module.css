@@ -1,29 +1,33 @@
 .header {
+    width: 1440px;
+    height: 119px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+nav {
     display: flex;
     position: relative;
-    width: auto;
-    height: 119px;
-}
-
-.section {
-    flex-direction: row;
-    position: relative;
+    width: 1440px;
     height: 67px;
     top: 26px;
-    bottom: 26px;
     padding: 0px 50px 0px 50px;
+    gap: 0px;
+    opacity: 0px;
 }
 
-.logo {
+img {
     position: relative;
     width: 160px;
     height: 33px;
     top: 17px;
     left: 50px;
     padding: 0.08px 0.27px 0.3px 0.57px;
+    gap: 0px;
+    opacity: 0px;
 }
 
-.navigation-bar {
+.navigation-panel {
     position: absolute;
     width: 403px;
     height: 67px;
@@ -34,12 +38,81 @@
 }
 
 a {
-    /* font-family: DM Sans, italic; */
-    font-size: 17px;
+    font-family: 'DM Sans', sans-serif;
+    font-optical-sizing: auto;
     font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
     line-height: 27px;
     text-align: left;
-    border: none;
-    text-decoration: none;
-    color: #ffffff;
+}
+
+a:hover {
+    color: #118da8;
+}
+
+.home {
+    position: absolute;
+    width: 49px;
+    height: 27px;
+    top: 20px;
+    left: 20px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.episode {
+    position: absolute;
+    width: 75px;
+    height: 27px;
+    top: 20px;
+    left: 109px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.about {
+    position: absolute;
+    width: 51px;
+    height: 27px;
+    top: 20px;
+    left: 224px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.contact {
+    position: absolute;
+    width: 68px;
+    height: 27px;
+    top: 20px;
+    left: 315px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.home-page {
+    width: 1440px;
+    height: 913px;
+    top: 119px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.section-one {
+    position: relative;
+    width: 1400px;
+    height: 913px;
+    left: 20px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.img-1 {
+    width: 650px;
+    height: 873px;
+    gap: 0px;
+    opacity: 0px;
 }

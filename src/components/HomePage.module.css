@@ -27,6 +27,7 @@ img {
 }
 
 .navigation-panel {
+    display: flex;
     position: absolute;
     width: 403px;
     height: 67px;
@@ -37,7 +38,7 @@ img {
 }
 
 a {
-    font-family: 'DM Sans', sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -117,8 +118,8 @@ a:hover {
     opacity: 0px;
 }
 
-section div {
-    display: flex;
+.content-one {
+    display: inline-block;
     position: relative;
     width: 1300px;
     height: 873.44px;
@@ -135,11 +136,11 @@ section div {
     height: 74px;
     top: -26px;
     left: -26px;
-    gap: 0px;
-    opacity: 0px;
 }
 
 .next-level-text {
+    display: flex;
+    justify-content: space-between;
     position: absolute;
     width: 530px;
     height: 610.58px;
@@ -147,4 +148,61 @@ section div {
     left: 710px;
     gap: 0px;
     opacity: 0px;
+}
+
+.next-level-text > p {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+}
+
+.next {
+    top: 338.58px;
+    position: relative;
+    font-weight: 400;
+    width: 160px;
+    height: 88px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 75px;
+    line-height: 88px;
+    letter-spacing: 3.200000047683716px;
+    text-align: left;
+}
+
+.take-your-podcast {
+    position: absolute;
+    font-weight: 400;
+    width: 526px;
+    height: 176px;
+    top: 162.58px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: 3.200000047683716px;
+    text-align: left;
+}
+
+.level {
+    position: absolute;
+    width: 191px;
+    height: 88px;
+    top: 338.58px;
+    left: 185px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 3.200000047683716px;
+    text-align: left;
+}
+
+.next img {
+    width: 163px;
+    height: 11px;
+    top: -60px;
+    left: -5px;
 }

@@ -11,7 +11,6 @@ nav {
     width: 1440px;
     height: 67px;
     top: 26px;
-    padding: 0px 50px 0px 50px;
     gap: 0px;
     opacity: 0px;
 }
@@ -54,7 +53,7 @@ a:hover {
 }
 
 .home {
-    position: absolute;
+    position: static;
     width: 49px;
     height: 27px;
     top: 20px;
@@ -111,8 +110,41 @@ a:hover {
 }
 
 .img-1 {
+    position: static;
     width: 650px;
     height: 873px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+section div {
+    display: flex;
+    position: relative;
+    width: 1300px;
+    height: 873.44px;
+    top: 40px;
+    left: 50px;
+    padding: 0px 60px 0px 0px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.img-2 {
+    position: absolute;
+    width: 68px;
+    height: 74px;
+    top: -26px;
+    left: -26px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.next-level-text {
+    position: absolute;
+    width: 530px;
+    height: 610.58px;
+    top: 131.42px;
+    left: 710px;
     gap: 0px;
     opacity: 0px;
 }

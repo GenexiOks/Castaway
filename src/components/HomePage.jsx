@@ -1,6 +1,7 @@
 import styles from './HomePage.module.css';
 import logo from '../../logo/Vector.svg';
 import img from '../../img/IMAGE.svg';
+import lines from '../../img/IMAGE1.svg';
 
 function HomePage() {
     return (
@@ -26,11 +27,19 @@ function HomePage() {
             </div>
             <div className={styles['home-page']}>
                 <section className={styles['section-one']}>
-                    <img
-                        src={img}
-                        alt="home page"
-                        className={styles['img-1']}
-                    />
+                    <div className={styles['content-one']}>
+                        <img
+                            src={lines}
+                            alt="line"
+                            className={styles['img-2']}
+                        />
+                        <img
+                            src={img}
+                            alt="home page"
+                            className={styles['img-1']}
+                        />
+                        <div className={styles['next-level-text']}></div>
+                    </div>
                 </section>
             </div>
         </>

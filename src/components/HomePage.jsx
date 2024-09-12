@@ -49,6 +49,40 @@ function HomePage() {
                                 Take your podcast to the
                             </p>
                             <p className={styles.level}>level</p>
+                            <div
+                                className={
+                                    styles["conteiner-for-social-networking"]
+                                }
+                            >
+                                <p>Listen on</p>
+                                <nav
+                                    className={styles["conteiner-social-logo"]}
+                                >
+                                    <div>
+                                        <img src={"./social_logo/IMAGE.png"} />
+                                    </div>
+                                    <div>
+                                        <img
+                                            src={"./social_logo/IMAGE (4).png"}
+                                        />
+                                    </div>
+                                    <div>
+                                        <img
+                                            src={"./social_logo/IMAGE (3).png"}
+                                        />
+                                    </div>
+                                    <div>
+                                        <img
+                                            src={"./social_logo/IMAGE (2).png"}
+                                        />
+                                    </div>
+                                    <div>
+                                        <img
+                                            src={"./social_logo/IMAGE (1).png"}
+                                        />
+                                    </div>
+                                </nav>
+                            </div>
                         </div>
                     </div>
                 </section>

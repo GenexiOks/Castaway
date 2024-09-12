@@ -1,8 +1,15 @@
 .header {
     width: 1440px;
     height: 119px;
-    gap: 0px;
-    opacity: 0px;
+}
+
+p,
+a {
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
 }
 
 nav {
@@ -11,8 +18,6 @@ nav {
     width: 1440px;
     height: 67px;
     top: 26px;
-    gap: 0px;
-    opacity: 0px;
 }
 
 img {
@@ -22,8 +27,6 @@ img {
     top: 17px;
     left: 50px;
     padding: 0.08px 0.27px 0.3px 0.57px;
-    gap: 0px;
-    opacity: 0px;
 }
 
 .navigation-panel {
@@ -33,16 +36,9 @@ img {
     height: 67px;
     left: 987px;
     padding: 20px 0px 0px 0px;
-    gap: 0px;
-    opacity: 0px;
 }
 
 a {
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
     text-decoration: none;
     font-size: 17px;
     line-height: 27px;
@@ -59,8 +55,6 @@ a:hover {
     height: 27px;
     top: 20px;
     left: 20px;
-    gap: 0px;
-    opacity: 0px;
 }
 
 .episode {
@@ -69,8 +63,6 @@ a:hover {
     height: 27px;
     top: 20px;
     left: 109px;
-    gap: 0px;
-    opacity: 0px;
 }
 
 .about {
@@ -79,8 +71,6 @@ a:hover {
     height: 27px;
     top: 20px;
     left: 224px;
-    gap: 0px;
-    opacity: 0px;
 }
 
 .contact {
@@ -89,16 +79,12 @@ a:hover {
     height: 27px;
     top: 20px;
     left: 315px;
-    gap: 0px;
-    opacity: 0px;
 }
 
 .home-page {
     width: 1440px;
     height: 913px;
     top: 119px;
-    gap: 0px;
-    opacity: 0px;
 }
 
 .section-one {
@@ -106,16 +92,12 @@ a:hover {
     width: 1400px;
     height: 913px;
     left: 20px;
-    gap: 0px;
-    opacity: 0px;
 }
 
 .img-1 {
     position: static;
     width: 650px;
     height: 873px;
-    gap: 0px;
-    opacity: 0px;
 }
 
 .content-one {
@@ -126,8 +108,6 @@ a:hover {
     top: 40px;
     left: 50px;
     padding: 0px 60px 0px 0px;
-    gap: 0px;
-    opacity: 0px;
 }
 
 .img-2 {
@@ -146,25 +126,16 @@ a:hover {
     height: 610.58px;
     top: 131.42px;
     left: 710px;
-    gap: 0px;
-    opacity: 0px;
 }
 
 .next-level-text > p {
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    color: white;
 }
 
 .next {
     top: 338.58px;
     position: relative;
-    font-weight: 400;
     width: 160px;
     height: 88px;
-    gap: 0px;
-    opacity: 0px;
     font-size: 75px;
     line-height: 88px;
     letter-spacing: 3.200000047683716px;
@@ -173,12 +144,9 @@ a:hover {
 
 .take-your-podcast {
     position: absolute;
-    font-weight: 400;
     width: 526px;
     height: 176px;
     top: 162.58px;
-    gap: 0px;
-    opacity: 0px;
     font-size: 70px;
     line-height: 88px;
     letter-spacing: 3.200000047683716px;
@@ -191,8 +159,6 @@ a:hover {
     height: 88px;
     top: 338.58px;
     left: 185px;
-    gap: 0px;
-    opacity: 0px;
     font-size: 80px;
     font-weight: 700;
     line-height: 88px;
@@ -205,4 +171,45 @@ a:hover {
     height: 11px;
     top: -60px;
     left: -5px;
+}
+
+.conteiner-for-social-networking {
+    display: flex;
+    position: absolute;
+    width: 289px;
+    height: 72px;
+    top: 516.58px;
+}
+
+.conteiner-for-social-networking p {
+    position: absolute;
+    font-size: 15px;
+    left: 22px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.conteiner-for-social-networking div {
+    width: 32px;
+    height: 32px;
+    padding: 0.05px;
+}
+
+.conteiner-social-logo {
+    width: 245px;
+    height: 32px;
+    top: 40px;
+    left: 22px;
+    padding: 0px 17px 0px 0px;
+}
+/* :not(:first-child) */
+.conteiner-social-logo div:not(:first-child) {
+    margin-left: 17px;
+}
+
+.conteiner-social-logo div img {
+    width: 31.9px;
+    height: 31.9px;
+    top: 0.05px;
+    left: 0.05px;
 }

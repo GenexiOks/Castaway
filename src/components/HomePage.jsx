@@ -87,6 +87,31 @@ function HomePage() {
                     </div>
                 </section>
             </div>
+            <div className={styles["conteiner-about-us"]}>
+                <section>
+                    <div className={styles["all-episodes-text"]}>
+                        <p>Latest episodes</p>
+                        <button>View all episodes</button>
+                    </div>
+                    <div className={styles["all-episodes-preview"]}>
+                        <div className={styles["episode-one"]}>
+                            <section>
+                                <img src="./episodes_img/3.svg" />
+                            </section>
+                        </div>
+                        <div className={styles["episode-second"]}>
+                            <section>
+                                <img src="./episodes_img/1.svg" />
+                            </section>
+                        </div>
+                        <div className={styles["episode-third"]}>
+                            <section>
+                                <img src="./episodes_img/2.svg" />
+                            </section>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </>
     );
 }

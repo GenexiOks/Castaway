@@ -119,16 +119,12 @@ a:hover {
 }
 
 .next-level-text {
-    display: flex;
     justify-content: space-between;
     position: absolute;
     width: 530px;
     height: 610.58px;
     top: 131.42px;
     left: 710px;
-}
-
-.next-level-text > p {
 }
 
 .next {
@@ -212,4 +208,103 @@ a:hover {
     height: 31.9px;
     top: 0.05px;
     left: 0.05px;
+}
+
+.conteiner-about-us {
+    width: 1440px;
+    height: 2088px;
+    top: 1032px;
+}
+
+.conteiner-about-us section {
+    position: absolute;
+    width: 1400px;
+    height: 2088px;
+    left: 20px;
+}
+
+.all-episodes-text {
+    position: absolute;
+    width: 1300px;
+    height: 99px;
+    top: 100.44px;
+    left: 50px;
+}
+
+.all-episodes-preview {
+    position: absolute;
+    width: 1300px;
+    height: 1689px;
+    top: 239.44px;
+    left: 50px;
+}
+
+.all-episodes-text p {
+    position: absolute;
+    width: 513px;
+    height: 80px;
+    top: -7.44px;
+    font-size: 64px;
+    line-height: 79.2px;
+    letter-spacing: 2.880000114440918px;
+    text-align: left;
+}
+
+.all-episodes-text button {
+    border: none;
+    position: absolute;
+    width: 178px;
+    height: 51px;
+    top: 23.56px;
+    left: 1122px;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: white;
+    background-color: #118da8;
+    border-radius: 6px;
+}
+
+.all-episodes-preview div {
+    position: absolute;
+    width: 1300px;
+    height: 545px;
+    border-radius: 32px 0px 0px 0px;
+    background: #000000;
+    border-radius: 32px;
+}
+
+.episode-one {
+    position: relative;
+    width: 1300px;
+    height: 545px;
+    top: -0.44px;
+    border-radius: 32px 0px 0px 0px;
+}
+.episode-second {
+    width: 1300px;
+    height: 512px;
+    top: 604.56px;
+    border-radius: 32px 0px 0px 0px;
+}
+.episode-third {
+    width: 1300px;
+    height: 512px;
+    top: 1176.56px;
+    border-radius: 32px 0px 0px 0px;
+}
+
+.all-episodes-preview section {
+    width: 1220px;
+    height: 465px;
+    top: 40.44px;
+    left: 40px;
+}
+
+.all-episodes-preview img {
+    position: static;
+    left: 0;
+    width: 389px;
+    height: 465px;
+    top: -0.44px;
 }

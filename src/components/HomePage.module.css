@@ -5,7 +5,7 @@
 
 p,
 a {
-    font-family: "DM Sans", sans-serif;
+    font-family: 'DM Sans', sans-serif;
     color: white;
     font-optical-sizing: auto;
     font-style: normal;
@@ -295,6 +295,7 @@ a:hover {
 }
 
 .all-episodes-preview section {
+    display: flex;
     width: 1220px;
     height: 465px;
     top: 40.44px;
@@ -307,4 +308,20 @@ a:hover {
     width: 389px;
     height: 465px;
     top: -0.44px;
+}
+
+section .episode-text {
+    width: 778px;
+    height: 465px;
+    left: 442px;
+}
+
+.header-text {
+    width: 611px;
+    height: 141px;
+    top: 127.56px;
+    font-size: 57px;
+    line-height: 70.4px;
+    letter-spacing: 2.559999942779541px;
+    text-align: left;
 }

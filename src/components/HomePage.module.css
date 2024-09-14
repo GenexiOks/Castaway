@@ -5,7 +5,7 @@
 
 p,
 a {
-    font-family: 'DM Sans', sans-serif;
+    font-family: "DM Sans", sans-serif;
     color: white;
     font-optical-sizing: auto;
     font-style: normal;
@@ -265,13 +265,25 @@ a:hover {
     border-radius: 6px;
 }
 
-.all-episodes-preview div {
+/* .all-episodes-preview div {
     position: absolute;
     width: 1300px;
     height: 545px;
     border-radius: 32px 0px 0px 0px;
     background: #000000;
     border-radius: 32px;
+} */
+
+.episode-one,
+.episode-second,
+.episode-third {
+    position: absolute;
+    width: 1300px;
+    height: 545px;
+    border-radius: 32px 0px 0px 0px;
+    background: #000000;
+    border-radius: 32px;
+    left: 442px;
 }
 
 .episode-one {
@@ -317,6 +329,7 @@ section .episode-text {
 }
 
 .header-text {
+    position: absolute;
     width: 611px;
     height: 141px;
     top: 127.56px;
@@ -324,4 +337,33 @@ section .episode-text {
     line-height: 70.4px;
     letter-spacing: 2.559999942779541px;
     text-align: left;
+}
+
+.episode-tag {
+    position: absolute;
+    width: auto;
+    height: 27px;
+    top: 7.56px;
+    border-radius: 6px;
+    background-color: #191919;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+}
+
+.main-text-episode {
+    position: absolute;
+    width: 767px;
+    height: 66px;
+    top: 296.56px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#container-episode-number {
+    position: absolute;
+    width: 76px;
+    height: 27px;
+    top: 83px;
 }

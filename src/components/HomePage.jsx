@@ -9,7 +9,7 @@ function HomePage() {
         <>
             <div className={styles.header}>
                 <nav>
-                    <img src={logo}></img>
+                    <img className={styles["img-logo"]} src={logo}></img>
                     <div className={styles["navigation-panel"]}>
                         <a href="#" className={styles.home}>
                             Home
@@ -96,7 +96,11 @@ function HomePage() {
                     <div className={styles["all-episodes-preview"]}>
                         <div className={styles["episode-one"]}>
                             <section>
-                                <img src="./episodes_img/3.svg" />
+                                <div
+                                    className={styles["container-img-episode"]}
+                                >
+                                    <img src="./episodes_img/3.png" />
+                                </div>
                                 <div className={styles["episode-text"]}>
                                     <p className={styles["episode-tag"]}>
                                         Gear
@@ -112,32 +116,86 @@ function HomePage() {
                                         up.
                                     </p>
                                     <div
-                                        id={styles["container-episode-number"]}
-                                    ></div>
+                                        id={
+                                            styles[
+                                                "container-episode-number-text"
+                                            ]
+                                        }
+                                    >
+                                        <p id={styles["episode-text"]}>
+                                            Episode
+                                        </p>
+                                        <p id={styles["episode-number"]}>3</p>
+                                    </div>
+                                    <button
+                                        className={
+                                            styles["view-episode-details"]
+                                        }
+                                    >
+                                        View Episode Details
+                                    </button>
                                 </div>
                             </section>
-                        </div>
-                        <div className={styles["episode-second"]}>
-                            <section>
-                                <img src="./episodes_img/1.svg" />
-                                <div className={styles["episode-text"]}>
-                                    <p className={styles["episode-tag"]}>
-                                        Tips & Tricks
-                                    </p>
-                                    <p className={styles["header-text"]}>
-                                        Mic tricks to take you to the next level
-                                    </p>
-                                    <p className={styles["main-text-episode"]}>
-                                        Stop rolling with those default settings
-                                        on your mic. These small tweaks will
-                                        take you from sounding good to great.
-                                    </p>
-                                </div>
-                            </section>
+                            <div className={styles["episode-second"]}>
+                                <section>
+                                    <div
+                                        className={
+                                            styles["container-img-episode"]
+                                        }
+                                    >
+                                        <img src="./episodes_img/2.jpg" />
+                                    </div>
+
+                                    <div className={styles["episode-text"]}>
+                                        <p className={styles["episode-tag"]}>
+                                            Tips & Tricks
+                                        </p>
+                                        <p className={styles["header-text"]}>
+                                            Mic tricks to take you to the next
+                                            level
+                                        </p>
+                                        <p
+                                            className={
+                                                styles["main-text-episode"]
+                                            }
+                                        >
+                                            Stop rolling with those default
+                                            settings on your mic. These small
+                                            tweaks will take you from sounding
+                                            good to great.
+                                        </p>
+                                        <div
+                                            id={
+                                                styles[
+                                                    "container-episode-number-text"
+                                                ]
+                                            }
+                                        >
+                                            <p id={styles["episode-text"]}>
+                                                Episode
+                                            </p>
+                                            <p id={styles["episode-number"]}>
+                                                2
+                                            </p>
+                                        </div>
+                                        <button
+                                            className={
+                                                styles["view-episode-details"]
+                                            }
+                                        >
+                                            View Episode Details
+                                        </button>
+                                    </div>
+                                </section>
+                            </div>
                         </div>
                         <div className={styles["episode-third"]}>
                             <section>
-                                <img src="./episodes_img/2.svg" />
+                                <div
+                                    className={styles["container-img-episode"]}
+                                >
+                                    <img src="./episodes_img/1.jpg" />
+                                </div>
                                 <div className={styles["episode-text"]}>
                                     <p className={styles["episode-tag"]}>
                                         Gear
@@ -150,6 +208,25 @@ function HomePage() {
                                         how are you supposed to know what’s the
                                         best? Take a look at our top picks.
                                     </p>
+                                    <div
+                                        id={
+                                            styles[
+                                                "container-episode-number-text"
+                                            ]
+                                        }
+                                    >
+                                        <p id={styles["episode-text"]}>
+                                            Episode
+                                        </p>
+                                        <p id={styles["episode-number"]}>1</p>
+                                    </div>
+                                    <button
+                                        className={
+                                            styles["view-episode-details"]
+                                        }
+                                    >
+                                        View Episode Details
+                                    </button>
                                 </div>
                             </section>
                         </div>

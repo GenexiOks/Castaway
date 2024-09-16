@@ -20,10 +20,10 @@ nav {
     top: 26px;
 }
 
-img {
-    position: relative;
+.img-logo {
     width: 160px;
     height: 33px;
+    position: relative;
     top: 17px;
     left: 50px;
     padding: 0.08px 0.27px 0.3px 0.57px;
@@ -251,7 +251,7 @@ a:hover {
 }
 
 .all-episodes-text button {
-    border: none;
+    /* border: none; */
     position: absolute;
     width: 178px;
     height: 51px;
@@ -265,15 +265,6 @@ a:hover {
     border-radius: 6px;
 }
 
-/* .all-episodes-preview div {
-    position: absolute;
-    width: 1300px;
-    height: 545px;
-    border-radius: 32px 0px 0px 0px;
-    background: #000000;
-    border-radius: 32px;
-} */
-
 .episode-one,
 .episode-second,
 .episode-third {
@@ -283,49 +274,39 @@ a:hover {
     border-radius: 32px 0px 0px 0px;
     background: #000000;
     border-radius: 32px;
-    left: 442px;
 }
 
 .episode-one {
-    position: relative;
-    width: 1300px;
-    height: 545px;
     top: -0.44px;
-    border-radius: 32px 0px 0px 0px;
 }
+
 .episode-second {
-    width: 1300px;
-    height: 512px;
     top: 604.56px;
-    border-radius: 32px 0px 0px 0px;
 }
+
 .episode-third {
-    width: 1300px;
-    height: 512px;
     top: 1176.56px;
-    border-radius: 32px 0px 0px 0px;
 }
 
 .all-episodes-preview section {
     display: flex;
     width: 1220px;
-    height: 465px;
+    height: auto;
     top: 40.44px;
     left: 40px;
 }
 
 .all-episodes-preview img {
-    position: static;
+    position: absolute;
     left: 0;
-    width: 389px;
-    height: 465px;
     top: -0.44px;
 }
 
 section .episode-text {
+    position: relative;
     width: 778px;
-    height: 465px;
-    left: 442px;
+    height: auto;
+    left: 53px;
 }
 
 .header-text {
@@ -361,9 +342,57 @@ section .episode-text {
     color: rgba(255, 255, 255, 0.7);
 }
 
-#container-episode-number {
+#episode-text {
     position: absolute;
-    width: 76px;
+    width: 66px;
+    height: 27px;
+    top: -0.44px;
+    color: rgba(17, 141, 168, 1);
+    font-size: 17px;
+    line-height: 27px;
+    text-align: left;
+}
+
+#container-episode-number-text {
+    position: relative;
+    display: flex;
+    width: 82px;
     height: 27px;
     top: 83px;
+}
+
+#episode-number {
+    position: absolute;
+    color: rgba(17, 141, 168, 1);
+    width: 11px;
+    height: 27px;
+    top: -0.44px;
+    left: 71px;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+}
+
+.view-episode-details {
+    position: absolute;
+    width: 208px;
+    height: 51px;
+    bottom: 0;
+    gap: 0px;
+    opacity: 0px;
+    background-color: rgba(17, 141, 168, 1);
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 6px;
+}
+
+.container-img-episode {
+    position: relative;
+    width: 389px;
+    height: auto;
+    top: -0.44px;
+    gap: 0px;
+    opacity: 0px;
 }

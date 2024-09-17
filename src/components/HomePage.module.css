@@ -4,12 +4,18 @@
 }
 
 p,
-a {
+a,
+h1 {
     font-family: "DM Sans", sans-serif;
     color: white;
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 400;
+    position: absolute;
+    width: 767px;
+    height: 66px;
+    top: 296.56px;
+    color: white;
 }
 
 nav {
@@ -291,13 +297,15 @@ a:hover {
 .all-episodes-preview section {
     display: flex;
     width: 1220px;
-    height: auto;
+    height: 432px;
     top: 40.44px;
     left: 40px;
 }
 
 .all-episodes-preview img {
     position: absolute;
+    width: 389px;
+    height: 432px;
     left: 0;
     top: -0.44px;
 }
@@ -305,7 +313,7 @@ a:hover {
 section .episode-text {
     position: relative;
     width: 778px;
-    height: auto;
+    height: 432px;
     left: 53px;
 }
 
@@ -334,7 +342,7 @@ section .episode-text {
     text-align: left;
 }
 
-.main-text-episode {
+.main-text {
     position: absolute;
     width: 767px;
     height: 66px;
@@ -395,4 +403,115 @@ section .episode-text {
     top: -0.44px;
     gap: 0px;
     opacity: 0px;
+}
+
+.container-subscribe {
+    position: absolute;
+    width: 1440px;
+    height: 1530.44px;
+    top: 3120.44px;
+}
+
+.container-about-user {
+    width: 1440px;
+    height: 943px;
+    top: -0.44px;
+}
+
+.container-about-user div {
+    position: absolute;
+    width: 1400px;
+    height: 943px;
+    left: 20px;
+}
+
+.container-form-subscribe {
+    width: 1440px;
+    height: 587px;
+    top: 943.56px;
+}
+
+.about-user {
+    position: absolute;
+    width: 1300px;
+    height: 743.44px;
+    top: 100.44px;
+    left: 50px;
+}
+
+.user-photo {
+    position: absolute;
+    width: 650px;
+    height: 743px;
+    border-radius: 12px 0px 0px 0px;
+    left: 650px;
+}
+
+.container-user-info {
+    position: absolute;
+    width: 590px;
+    height: 448px;
+    top: 147.72px;
+}
+
+.container-user-info h1 {
+    position: absolute;
+    width: 496px;
+    height: 80px;
+    top: 156.84px;
+    font-size: 65px;
+    line-height: 79.2px;
+    letter-spacing: 2.880000114440918px;
+    text-align: left;
+}
+
+.arrow-img {
+    top: 51px;
+    left: 13px;
+}
+
+.meet-host-button {
+    width: 112px;
+    height: 112px;
+    top: -0.16px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: rgba(17, 141, 168, 1);
+    border-radius: 400px;
+    border: none;
+}
+
+:active .meet-host-button {
+    background-color: rgb(18, 118, 141);
+}
+
+.main-text-one {
+    font-size: 22px;
+    line-height: 33px;
+    text-align: left;
+    width: 556px;
+    height: 66px;
+    top: 264.84px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.main-text-second {
+    font-size: 22px;
+    line-height: 33px;
+    text-align: left;
+    width: 528px;
+    height: 66px;
+    top: 363.84px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.text-host {
+    position: absolute;
+    width: 126px;
+    height: 27px;
+    top: 131.84px;
+    color: rgba(17, 141, 168, 1);
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
 }

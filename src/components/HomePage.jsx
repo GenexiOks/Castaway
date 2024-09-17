@@ -108,7 +108,7 @@ function HomePage() {
                                     <p className={styles["header-text"]}>
                                         Should you get outboard audio gear?
                                     </p>
-                                    <p className={styles["main-text-episode"]}>
+                                    <p className={styles["main-text"]}>
                                         Is hardware really worth it when it
                                         comes to podcasting? The answer is...it
                                         depends. Here’s our reasons on why you
@@ -154,11 +154,7 @@ function HomePage() {
                                             Mic tricks to take you to the next
                                             level
                                         </p>
-                                        <p
-                                            className={
-                                                styles["main-text-episode"]
-                                            }
-                                        >
+                                        <p className={styles["main-text"]}>
                                             Stop rolling with those default
                                             settings on your mic. These small
                                             tweaks will take you from sounding
@@ -203,7 +199,7 @@ function HomePage() {
                                     <p className={styles["header-text"]}>
                                         The best microphone under $200
                                     </p>
-                                    <p className={styles["main-text-episode"]}>
+                                    <p className={styles["main-text"]}>
                                         With so many microphones on the market,
                                         how are you supposed to know what’s the
                                         best? Take a look at our top picks.
@@ -232,6 +228,41 @@ function HomePage() {
                         </div>
                     </div>
                 </section>
+            </div>
+            <div className={styles["container-subscribe"]}>
+                <div className={styles["container-about-user"]}>
+                    <div>
+                        <article className={styles["about-user"]}>
+                            <img
+                                className={styles["user-photo"]}
+                                src="./img/man.svg"
+                            />
+                            <section className={styles["container-user-info"]}>
+                                <h1>Jacob Paulaner</h1>
+                                <button className={styles["meet-host-button"]}>
+                                    <img
+                                        className={styles["arrow-img"]}
+                                        src="./img/arrow.png"
+                                    />
+                                </button>
+                                <p className={styles["text-host"]}>
+                                    Meet your host
+                                </p>
+                                <p className={styles["main-text-one"]}>
+                                    Jacob has a background in audio engineering,
+                                    and has been podcasting since the early
+                                    days.
+                                </p>
+                                <p className={styles["main-text-second"]}>
+                                    He’s here to help you level up your game by
+                                    sharing everything he’s learned along the
+                                    way.
+                                </p>
+                            </section>
+                        </article>
+                    </div>
+                </div>
+                <div className={styles["container-form-subscribe"]}></div>
             </div>
         </>
     );

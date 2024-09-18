@@ -6,7 +6,7 @@
 p,
 a,
 h1 {
-    font-family: "DM Sans", sans-serif;
+    font-family: 'DM Sans', sans-serif;
     color: white;
     font-optical-sizing: auto;
     font-style: normal;
@@ -14,7 +14,6 @@ h1 {
     position: absolute;
     width: 767px;
     height: 66px;
-    top: 296.56px;
     color: white;
 }
 
@@ -425,7 +424,7 @@ section .episode-text {
     left: 20px;
 }
 
-.container-form-subscribe {
+.container_form_subscribe {
     width: 1440px;
     height: 587px;
     top: 943.56px;
@@ -514,4 +513,11 @@ section .episode-text {
     font-size: 18px;
     line-height: 27px;
     text-align: left;
+}
+
+.container_form_subscribe div {
+    position: absolute;
+    width: 1400px;
+    height: 587px;
+    left: 20px;
 }

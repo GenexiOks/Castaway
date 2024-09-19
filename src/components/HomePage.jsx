@@ -3,6 +3,7 @@ import logo from "../../logo/Vector.svg";
 import img from "../../img/IMAGE.svg";
 import lines from "../../img/IMAGE1.svg";
 import vector from "../../img/Vector.svg";
+import FiveStars from "./fiveStars";
 
 function HomePage() {
     return (
@@ -43,7 +44,7 @@ function HomePage() {
                         <div className={styles["next-level-text"]}>
                             <p className={styles.next}>
                                 next
-                                <img src={vector} />
+                                <img className={styles.line} src={vector} />
                             </p>
                             <p className={styles["take-your-podcast"]}>
                                 Take your podcast to the
@@ -276,11 +277,11 @@ function HomePage() {
                             </div>
                             <form className={styles["input-frame"]}>
                                 <input
-                                    value="Name"
+                                    defaultValue="Name"
                                     className={styles["input-name"]}
                                 ></input>
                                 <input
-                                    value="Email"
+                                    defaultValue="Email"
                                     className={styles["input-email"]}
                                 ></input>
                                 <button>Submit</button>
@@ -291,7 +292,14 @@ function HomePage() {
             </div>
             <section className={styles["section-comments"]}>
                 <div className={styles["container-comments"]}>
-                    <div className={styles["all-user-comments"]}></div>
+                    <div className={styles["all-user-comments"]}>
+                        <article>{FiveStars}</article>
+                        <article></article>
+                        <article></article>
+                        <article></article>
+                        <article></article>
+                        <article></article>
+                    </div>
                 </div>
             </section>
         </>

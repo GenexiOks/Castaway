@@ -657,11 +657,3 @@ div.container-comments {
     top: 99.88px;
     left: 50px;
 }
-
-.all-user-comments article {
-    width: 423px;
-    height: 321px;
-    top: 0.12px;
-    border-radius: 32px;
-    background-color: rgba(0, 0, 0, 1);
-}

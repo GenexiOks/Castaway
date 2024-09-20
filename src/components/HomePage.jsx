@@ -3,7 +3,7 @@ import logo from "../../logo/Vector.svg";
 import img from "../../img/IMAGE.svg";
 import lines from "../../img/IMAGE1.svg";
 import vector from "../../img/Vector.svg";
-import FiveStars from "./fiveStars";
+import FiveStarsImg from "./FiveStarsImg";
 
 function HomePage() {
     return (
@@ -27,7 +27,6 @@ function HomePage() {
                     </div>
                 </nav>
             </div>
-
             <div className={styles["home-page"]}>
                 <section className={styles["section-one"]}>
                     <div className={styles["content-one"]}>
@@ -293,12 +292,25 @@ function HomePage() {
             <section className={styles["section-comments"]}>
                 <div className={styles["container-comments"]}>
                     <div className={styles["all-user-comments"]}>
-                        <article>{FiveStars}</article>
-                        <article></article>
-                        <article></article>
-                        <article></article>
-                        <article></article>
-                        <article></article>
+                        <FiveStarsImg user={"Betty Lacey"}>
+                            I can’t recommend this podcast enough
+                        </FiveStarsImg>
+                        <FiveStarsImg user={"Adam Driver"}>
+                            Jacob is the best in the business
+                        </FiveStarsImg>
+                        <FiveStarsImg user={"Marcus Brown"}>
+                            A wealth of audio knowledge
+                        </FiveStarsImg>
+                        <FiveStarsImg user={"Jessica Knowl"}>
+                            Every episode is a gem!
+                        </FiveStarsImg>
+                        <FiveStarsImg user={"Scott Adams"}>
+                            Whoa whoa, let me take some notes!
+                        </FiveStarsImg>
+                        <FiveStarsImg user={"Steven Blast"}>
+                            I’ve upped my game considerably since I started
+                            listening
+                        </FiveStarsImg>
                     </div>
                 </div>
             </section>

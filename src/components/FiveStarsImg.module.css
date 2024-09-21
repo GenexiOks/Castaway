@@ -3,7 +3,6 @@ p {
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 400;
-    position: absolute;
 }
 
 img {
@@ -19,13 +18,14 @@ img:last-child {
 }
 
 .stars {
-    position: absolute;
     width: 110px;
-    left: 50px;
-    top: 54px;
+    margin-left: 50px;
+    /* top: 54px; */
+    margin-top: 54px;
 }
 
 .comment-box {
+    display: block;
     position: relative;
     width: 423px;
     height: 321px;
@@ -35,11 +35,9 @@ img:last-child {
 }
 
 .user {
-    position: absolute;
     width: 132px;
     height: 29px;
     left: 50px;
-    margin-top: 19px;
     font-size: 24px;
     line-height: 28.8px;
     text-align: left;

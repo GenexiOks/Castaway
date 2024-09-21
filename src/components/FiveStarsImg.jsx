@@ -11,8 +11,8 @@ function FiveStarsImg(props) {
                     <img src="../../stars/Vector.svg" />
                     <img src="../../stars/Vector.svg" />
                 </div>
-                <p className={styles["user"]}>{props.user}</p>
                 <p className={styles["user-comment"]}>{props.children}</p>
+                <p className={styles["user"]}>{props.user}</p>
             </artice>
         </>
     );

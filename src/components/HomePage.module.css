@@ -4,15 +4,15 @@
 }
 
 p,
+li,
 a,
 h1,
 button {
-    font-family: "DM Sans", sans-serif;
+    font-family: 'DM Sans', sans-serif;
     color: white;
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 400;
-    position: absolute;
     width: 767px;
     height: 66px;
     color: white;
@@ -503,6 +503,7 @@ section .episode-text {
 }
 
 .main-text-one {
+    position: absolute;
     font-size: 22px;
     line-height: 33px;
     text-align: left;
@@ -513,6 +514,7 @@ section .episode-text {
 }
 
 .main-text-second {
+    position: absolute;
     font-size: 22px;
     line-height: 33px;
     text-align: left;
@@ -648,12 +650,73 @@ div.container-comments {
 }
 
 .all-user-comments {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: absolute;
+    position: relative;
     width: 1300px;
     height: 701px;
     top: 99.88px;
     left: 50px;
+}
+
+.comment-block-first {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    height: 321px;
+}
+
+.comment-block-second {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    height: 364px;
+    top: 337.12px;
+}
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 438px;
+    top: 5552px;
+}
+
+.footer-conteiner {
+    position: absolute;
+    width: 1300px;
+    height: 238px;
+    top: 99.88px;
+    left: 70px;
+    padding: 0px 0.03px 16px 0px;
+}
+
+.info {
+    position: absolute;
+    width: 178.84px;
+    height: 222px;
+    left: 657.98px;
+    top: 0px;
+    padding: 0px 4.83px 10.88px 0.02px;
+}
+
+li {
+    list-style: none;
+    height: 27px;
+    margin-bottom: 10px;
+}
+
+.nav {
+    position: absolute;
+    list-style: none;
+    width: 178.84px;
+    height: 222px;
+    left: 463.14px;
+    top: 0px;
+}
+
+.footer-logo {
+    top: 0.11px;
+    left: 0.81px;
+    top: 0.13px;
+    padding: 0.11px 0.38px 0.42px 0.8px;
 }

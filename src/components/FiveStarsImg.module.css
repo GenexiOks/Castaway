@@ -1,5 +1,5 @@
 p {
-    font-family: "DM Sans", sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 400;
@@ -20,15 +20,12 @@ img:last-child {
 .stars {
     width: 110px;
     margin-left: 50px;
-    /* top: 54px; */
     margin-top: 54px;
 }
 
 .comment-box {
-    display: block;
-    position: relative;
     width: 423px;
-    height: 321px;
+    max-height: max-content;
     top: 0.12px;
     border-radius: 32px;
     background-color: rgba(0, 0, 0, 1);
@@ -36,8 +33,9 @@ img:last-child {
 
 .user {
     width: 132px;
-    height: 29px;
-    left: 50px;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 19px;
     font-size: 24px;
     line-height: 28.8px;
     text-align: left;
@@ -49,7 +47,7 @@ img:last-child {
     line-height: 43.2px;
     text-align: left;
     width: 313px;
-    height: 130px;
-    top: 92px;
-    left: 50px;
+    height: auto;
+    padding-top: 21px;
+    margin-left: 50px;
 }

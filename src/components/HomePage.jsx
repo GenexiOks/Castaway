@@ -6,6 +6,8 @@ import vector from "../../img/Vector.svg";
 import FiveStarsImg from "./FiveStarsImg";
 
 function HomePage() {
+    function isFocus() {}
+
     return (
         <>
             <div className={styles.header}>
@@ -278,10 +280,12 @@ function HomePage() {
                                 <input
                                     defaultValue="Name"
                                     className={styles["input-name"]}
+                                    onFocus={isFocus}
                                 ></input>
                                 <input
                                     defaultValue="Email"
                                     className={styles["input-email"]}
+                                    onFocus={isFocus}
                                 ></input>
                                 <button>Submit</button>
                             </form>

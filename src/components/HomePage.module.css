@@ -8,7 +8,7 @@ li,
 a,
 h1,
 button {
-    font-family: 'DM Sans', sans-serif;
+    font-family: "DM Sans", sans-serif;
     color: white;
     font-optical-sizing: auto;
     font-style: normal;
@@ -715,8 +715,25 @@ li {
 }
 
 .footer-logo {
-    top: 0.11px;
-    left: 0.81px;
+    position: absolute;
+    width: 224px;
+    height: 46px;
     top: 0.13px;
     padding: 0.11px 0.38px 0.42px 0.8px;
+    left: 0.81px;
+}
+
+.footer-social-logo {
+    position: absolute;
+    width: 447.14px;
+    height: 27px;
+    top: 66.11px;
+    padding: 0px 355.14px 0px 0px;
+}
+
+.footer-social-logo img {
+    width: 24px;
+    height: 24px;
+    top: 3.02px;
+    margin-right: 10px;
 }
